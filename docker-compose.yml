@@ -15,8 +15,8 @@ services:
       - DB_SAVE=true
       - DB_HOST=http://influxdb:8086
       - DB_NAME=speedtest
-      - DB_USERNAME=admin
-      - DB_PASSWORD=<MY_PASSWORD>
+      - DB_USERNAME=e2admin
+      - DB_PASSWORD=e2password
 
   # Creates an InfluxDB instance to store the
   # speed test results
